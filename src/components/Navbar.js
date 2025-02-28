@@ -156,7 +156,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -164,7 +164,7 @@ function NavBar() {
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre Nosotros
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             {/* Dropdown funcional para Nuestros Servicios */}
             <Dropdown>
@@ -178,19 +178,34 @@ function NavBar() {
     Nuestros Servicios
   </Dropdown.Toggle>
   <Dropdown.Menu>
-    <Dropdown.Item as={Link} to="/service1">
-      Servicio 1
-    </Dropdown.Item>
-    <Dropdown.Item as={Link} to="/service2">
-      Servicio 2
-    </Dropdown.Item>
-    <Dropdown.Item as={Link} to="/service3">
-      Servicio 3
-    </Dropdown.Item>
-  </Dropdown.Menu>
+  <Dropdown.Item as={Link} to="/acupuntura">
+    <span className="scroll-text">Terapia Manual Kinesiológica y Acupuntura</span>
+  </Dropdown.Item>
+  <Dropdown.Item as={Link} to="/rehabilitacionvestibular">
+    <span className="scroll-text">Rehabilitación Vestibular</span>
+  </Dropdown.Item>
+  <Dropdown.Item as={Link} to="/terapiademovimiento">
+    <span className="scroll-text">Terapia de Movimiento</span>
+  </Dropdown.Item>
+  <Dropdown.Item as={Link} to="/ritualesensoriales">
+    <span className="scroll-text">Rituales Sensoriales</span>
+  </Dropdown.Item>
+  <Dropdown.Item as={Link} to="/manipulacioncorporal">
+    <span className="scroll-text">Manipulación Corporal</span>
+  </Dropdown.Item>
+  <Dropdown.Item as={Link} to="/tratamientodelapielcorporal">
+    <span className="scroll-text">Tratamientos de la Piel Corporal</span>
+  </Dropdown.Item>
+  <Dropdown.Item as={Link} to="/tratamientodelapielfacial">
+    <span className="scroll-text">Tratamientos de Cuidado de la Piel Facial</span>
+  </Dropdown.Item>
+  <Dropdown.Item as={Link} to="/depilacionlaser">
+    <span className="scroll-text">Depilación Láser (Masculinos y Femeninos)</span>
+  </Dropdown.Item>
+</Dropdown.Menu>
 </Dropdown>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/certif"
@@ -198,7 +213,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Contactate con nosotros!
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

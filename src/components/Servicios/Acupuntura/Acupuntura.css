@@ -1,0 +1,38 @@
+.about-para{
+    font-size: 30px;
+}
+
+.abour-para{
+    font-size: 20px;
+}
+
+.preguntas{
+    color: rgb(178, 154, 235);
+}
+
+.contradiccion{
+    color:red
+}
+
+.honorario{
+    color: rgb(178, 154, 235);
+}
+
+.hono{
+    font-size : 40px;
+}
+
+.image-text-container {
+    display: flex; /* Coloca el texto y la imagen en la misma línea */
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: space-between; /* Separa el texto y la imagen */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    margin: 20px 0; /* Espaciado entre este bloque y los demás elementos */
+}
+
+.content-image {
+    width: 300px; /* Ajusta el ancho de la imagen según tu necesidad */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: sombra para la imagen */
+}

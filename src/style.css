@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(16, 17, 17, 0.582),
-    rgba(16, 17, 17, 0.582)
+    rgba(10, 10, 10, 0.705),
+    rgba(16, 17, 17, 0.705)
   );
 
   --image-gradient: linear-gradient(
@@ -11,7 +11,7 @@ html {
     rgba(16, 17, 17, 0.582)
   );
 
-  --imp-text-color: #70c1f0;
+  --imp-text-color: #d19df0;
 }
 
 .purple {
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #9c5bf0af;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -73,15 +73,15 @@ button:focus {
 }
 
 /* --------- */
-/* Navbar Section  */
+/* Navbar Section */
 /* --------- */
+
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #7c54aaa9 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(109, 36, 192, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
-
 
 .navbar {
   position: fixed !important;
@@ -96,11 +96,9 @@ button:focus {
   border-color: transparent !important;
 }
 
-
-
 .navbar-toggler span {
   display: block !important;
-  background-color: #70c1f0 !important;
+  background-color: #9c5bf0af !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -115,11 +113,8 @@ button:focus {
   outline: 0 !important;
 }
 
-
-
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
   transition: transform 0.35s ease-in-out !important;
 }
 
@@ -131,40 +126,11 @@ button:focus {
   opacity: 0.9 !important;
 }
 
-
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
   height: 12px !important;
   visibility: hidden !important;
   background-color: transparent !important;
 }
-
-/* dropdown menu*/
-/* Estilo general del Dropdown */
-.dropdown-menu {
-  background: none !important; /* Elimina el fondo del menú */
-  border: none; /* Sin bordes */
-  box-shadow: none; /* Elimina la sombra */
-  padding: 0; /* Ajusta el espaciado interno */
-  border-radius: none;
-  width: 100%;
-  
-}
-
-/* Estilo para los elementos del menú */
-.dropdown-item {
-  color: white !important; /* Color inicial del texto */
-  padding: 10px 15px; /* Ajusta el espacio interno */
-  font-size: 1rem; /* Tamaño del texto */
-  text-align: center; /* Centra el texto */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Animación suave */
-}
-
-/* Efecto al pasar el mouse */
-.dropdown-item:hover {
-  background-color: none !important; /* Elimina el fondo */
-  color: #1e90ff !important; /* Cambia el texto a celeste */
-}
-
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
   position: absolute !important;
@@ -174,6 +140,80 @@ button:focus {
   opacity: 0.9 !important;
 }
 
+/* ---------- */
+/* Dropdown Menu */
+/* ---------- */
+
+/* Estilo general del Dropdown */
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+  padding: 10px 0 !important;
+  min-width: 250px !important;
+  max-width: 300px !important;
+  overflow: hidden !important; /* Mantiene el contenido dentro del cuadro */
+  position: relative;
+}
+
+/* Contenedor del texto dentro del dropdown-item */
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  color: #333 !important;
+  padding: 10px 15px !important;
+  font-size: 1rem !important;
+  text-align: left !important;
+  max-width: 280px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  position: relative;
+}
+
+/* Contenedor adicional para la animación */
+.scroll-text-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+/* Aplicar la animación cuando el texto es más largo que el cuadro */
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  animation: none; /* Por defecto, sin animación */
+}
+
+/* Animación activada solo si el texto es más largo que el cuadro */
+.dropdown-item:hover .scroll-text {
+  animation: scrollText 5s linear forwards; /* Se mueve una vez hasta el final */
+}
+
+/* Animación de desplazamiento */
+@keyframes scrollText {
+  from {
+    transform: translateX(0%); /* Comienza desde la posición inicial */
+  }
+  to {
+    transform: translateX(-100%); /* Se mueve hasta el final */
+  }
+}
+/* Efecto al pasar el mouse */
+.dropdown-item:hover {
+  background-color: #f0f0f0 !important;
+  color: #700c86 !important;
+}
+
+/* Evita que el menú desplegable se salga de la pantalla */
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto !important;
+  transform: translateX(-10%);
+}
+
+/* Responsive para pantallas pequeñas */
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
@@ -184,6 +224,7 @@ button:focus {
     display: none !important;
   }
 }
+
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }
@@ -228,7 +269,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #5bc9f5;
+  background: #9c5bf0af;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -264,13 +305,13 @@ button:focus {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./Assets/background.webp");
+  /* background-image: url("./Assets/background.webp"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   font-family: Arial, sans-serif;
-  color: #fff;
+  color: #f5efef;
 }
 @keyframes wave-animation {
   0% {
@@ -310,22 +351,65 @@ body {
   padding-top: 80px !important;
 }
 
-.home-section {
+/* .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
-}
+  padding-top: 30px !important; */
+/* } */
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+
   text-align: left;
 }
+/* recomendaco */
 
+
+
+
+/* Ajusta el contenedor para que ocupe toda la pantalla */
+.home-section {
+  padding: 0;
+  margin: 0;
+}
+
+.fullscreen-carousel {
+  position: relative;
+  width: 100vw; /* Ancho completo de la ventana */
+  height: 70vh; /* Alto completo de la ventana */
+}
+
+.fullscreen-carousel .carousel-item {
+  height: 70vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.fullscreen-carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que las imágenes se recorten proporcionalmente */
+  object-position: center; /* Centra la imagen si se recorta */
+}
+
+.fullscreen-carousel .carousel-caption {
+  bottom: 20%; /* Ajusta la posición de los textos */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.fullscreen-carousel .carousel-caption h3,
+.fullscreen-carousel .carousel-caption p {
+  color: #fff;
+}
+
+
+
+
+
+
+
+/* hasta aca */
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
@@ -388,7 +472,7 @@ body {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: em !important;
   text-align: left;
 }
 
@@ -460,7 +544,7 @@ body {
 /* --------- */
 /* Footer */
 /* --------- */
-.footer {
+/* .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
@@ -499,7 +583,92 @@ body {
 
 .blockquote-footer {
   color: #a588c0 !important;
+} */
+
+.footer {
+  background-color: #885bf0f6; /* Fondo oscuro para contraste #885bf0f6*/
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
 }
+
+.footer-heading h2 {
+  color: #1e1e2d; /* Color principal */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilo para la Dirección */
+.footer-location {
+  margin-top: 20px;
+}
+
+.location-box {
+  background-color: #1e1e2d; /* Fondo secundario */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+}
+
+.location-box a.location-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #f0f0fa; /* Color principal */
+  color: rgb(12, 11, 11);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.location-box a.location-button:hover {
+  background-color: #050505; /* Oscurece en hover */
+  transform: scale(1.05);
+}
+
+/* Estilo para el QR */
+.footer-qr h4 {
+  color: #1e1e2d; /* Color principal */
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-qr img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+/* Estilo para Contacto */
+.footer-contact {
+  margin-top: 20px;
+}
+
+.footer-contact h4 {
+  color: #1e1e2d; /* Color principal */
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaciado entre íconos */
+}
+
+.contact-button {
+  color: #1e1e2d; /* Color inicial */
+  font-size: 40px; /* Tamaño grande para íconos */
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.contact-button:hover {
+  color: #1e1e2d; /* Color más oscuro en hover */
+  transform: scale(1.2); /* Aumenta tamaño en hover */
+}
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -519,7 +688,7 @@ body {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(145, 53, 221, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -529,7 +698,7 @@ body {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(145, 53, 221, 0.459) !important;
 }
 
 .blog-card {
@@ -542,7 +711,7 @@ body {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px rgba(145, 53, 221, 0.459) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -577,14 +746,14 @@ body {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #7c54aaa9 !important;
+  border-color: #7c54aaa9 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #7c54aaa9 !important;
+  border-color: #7c54aaa9 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -741,7 +910,7 @@ body {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #7c54aaa9;
 }
 
 .like-item {
@@ -751,8 +920,8 @@ body {
 }
 
 .like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
+  background-color: #7c54aaa9 !important;
+  border-color: #7c54aaa9 !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -761,8 +930,8 @@ body {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #7c54aaa9 !important;
+  border-color: #7c54aaa9 !important;
 }
 
 .animate-like {
@@ -786,7 +955,7 @@ body {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #7c54aaa9 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -794,8 +963,8 @@ body {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #7c54aaa9 !important;
+  border-color: #7c54aaa9 !important;
 }
 .fork-btn-inner::after {
   display: none !important;

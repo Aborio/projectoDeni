@@ -18,6 +18,17 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Acupuntura from "./components/Servicios/Acupuntura/Acupuntura";
+import DepilacionLaser from "./components/Servicios/depilacionlaser/DepilacionLaser";
+import ManipulacionCorporal from "./components/Servicios/ManipulacionCorporal/ManipiCorpoal";
+import RehabVestibular from "./components/Servicios/Rehabilitacionvestivular/RehabVestivular";
+import RitualesSensoriales from "./components/Servicios/RitualesSensoriales/RitualesSensoriales";
+import TerapiaManual from "./components/Servicios/TerapiaManual/TerapiaManual";
+import TerapiaMovimientos from "./components/Servicios/Terapiademovimiento/TerapiaMovimientos";
+import TratamPielCorpo from "./components/Servicios/Tratamientodelapielcorporal/TratamPielCorpo";
+import TratamPielFacial from "./components/Servicios/Tratamientosdecuidadodepiel/TratamPielFacial";
+
+
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -43,6 +54,16 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
           <Route path="/certif" element={<Certif />} />
+          <Route path="/acupuntura" element={<Acupuntura />} />
+          <Route path="/depilacionlaser" element={<DepilacionLaser />} />
+          <Route path="/manipulacioncorporal" element={<ManipulacionCorporal />} />
+          <Route path="/rehabilitacionvestibular" element={<RehabVestibular />} />
+          <Route path="/ritualesensoriales" element={<RitualesSensoriales />} />
+          <Route path="/terapiamanual" element={<TerapiaManual />} />
+          <Route path="/terapiademovimiento" element={<TerapiaMovimientos />} />
+          <Route path="/tratamientodelapielcorporal" element={<TratamPielCorpo />} />
+          <Route path="/tratamientodelapielfacial" element={<TratamPielFacial />}
+          />
         </Routes>
         {/* <Footer /> */}
       </div>

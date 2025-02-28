@@ -1,0 +1,88 @@
+/* Estilo General del Footer */
+.footer {
+    background-color: #1e1e2d; /* Fondo oscuro para contraste */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-heading h2 {
+    color: #9c5bf0af; /* Color principal */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para la Dirección */
+  .footer-location {
+    margin-top: 20px;
+  }
+  
+  .location-box {
+    background-color: #29293e; /* Fondo secundario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+  }
+  
+  .location-box a.location-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #9c5bf0af; /* Color principal */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .location-box a.location-button:hover {
+    background-color: #7c47c1; /* Oscurece en hover */
+    transform: scale(1.05);
+  }
+  
+  /* Estilo para el QR */
+  .footer-qr h4 {
+    color: #9c5bf0af; /* Color principal */
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-qr img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+  }
+  
+  /* Estilo para Contacto */
+  .footer-contact {
+    margin-top: 20px;
+  }
+  
+  .footer-contact h4 {
+    color: #9c5bf0af; /* Color principal */
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre íconos */
+  }
+  
+  .contact-button {
+    color: #9c5bf0af; /* Color inicial */
+    font-size: 40px; /* Tamaño grande para íconos */
+    transition: transform 0.2s ease, color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    color: #7c47c1; /* Color más oscuro en hover */
+    transform: scale(1.2); /* Aumenta tamaño en hover */
+  }
+  .align{
+    background-color: #db0404;
+  }
+  

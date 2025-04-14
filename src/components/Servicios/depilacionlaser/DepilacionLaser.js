@@ -9,7 +9,7 @@ function DepilacionLaser() {
 
     <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                <strong className="purple">
-                Depilacion Laser
+                Depilación Laser
                </strong>
             </h1>
 
@@ -18,6 +18,28 @@ function DepilacionLaser() {
             Es un procedimiento diseñado para eliminar vello de forma prolongada
 mediante el uso de un láser que emite una luz concentrada, destruyendo el
 folículo piloso e inhibiendo su crecimiento.
+<br></br>
+<span className="edadsu">Zonas de tratamiento:</span>
+<br></br>
+- Rostro
+<br></br>
+- Axilas
+<br></br>
+- Brazos (completo o parcial)
+<br></br>
+- Cavado
+<br></br>
+- Piernas completas
+<br></br>
+- Piernas parciales (ej. hasta la rodilla o muslos)
+<br></br>
+- Espalda completa
+<br></br>
+- Pecho y Abdomen
+<br></br>
+Manos y dedos de las Manos
+<br></br>
+Pies y dedos de los pies<br></br>
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span> de 4 a 6 semanas.
 <br></br>

@@ -23,9 +23,9 @@ Este tratamiento es perfecto si estás buscando revitalizar tu piel, devolverle
 firmeza y mejorar su apariencia general.
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span> cada 21 días de cuatro a seis sesiones.
-<p className="hono"><span className="honorario">Precio:</span> $18000 </p>
 
-<p className="hono"><span className="honorario">Duracion:</span> 60 minutos</p>
+
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 18000$</p>
 
 </p>
 
@@ -44,9 +44,8 @@ También tiene aplicación en las estrías, celulitis y flacidez; como en
 tratamientos capilares preventivos y de estimulación
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span> 4 a 6 sesiones,  cada 15/25 días.
-<p className="hono"><span className="honorario">Precio:</span> $24000 </p>
 
-<p className="hono"><span className="honorario">Duracion:</span> 60 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 24000$</p>
 
 * Está indicado en todo tipo de piel, también en áreas finas como los labios,
 escote, cuello y párpados
@@ -57,7 +56,7 @@ escote, cuello y párpados
 
 
 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Punta de diamante facial </strong>
+               <strong className="purple">Punta de diamante facial - Microdermoabrasión </strong>
             </h1>
             <p className="about-para">
 
@@ -72,9 +71,9 @@ la producción de colágeno.
 <span className="frecuencia">Frecuencia recomendada:</span> depende del tipo de piel de la persona; para pieles
 <br></br>
 <span className="frecuencia">Normales o saludables:</span> una sesión cada 4 a 6 semanas. 
-<p className="hono"><span className="honorario">Precio:</span> $18000 </p>
 
-<p className="hono"><span className="honorario">Duracion:</span> 60 minutos</p>
+
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 18000$</p>
 
 * Para pieles con problemas específicos (acné, manchas, cicatrices): una sesión cada 2
 a 4 semanas.
@@ -85,19 +84,18 @@ Para pieles sensibles: una sesión cada 6 a 8 semanas.
 
 
 <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Dermaplanig</strong>
+               <strong className="purple">Dermaplaning</strong>
             </h1>
             <p className="about-para">
-Dermaplanig
+Dermaplaning
 $24000 (60 minutos)
 Exfoliación facial realizada con un bisturí quirúrgico para raspar suavemente las
 capa las superficial de la piel; eliminando células muertas y otras impurezas,
 brindando una piel suave y luminosa.
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span> entre 4 a 6 semanas
-<p className="hono"><span className="honorario">Precio:</span> $24000 </p>
 
-<p className="hono"><span className="honorario">Duracion:</span> 60 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 24000$</p>
 </p>
 
       </Container>

@@ -6,7 +6,7 @@ function RitualesSensoriales() {
       <Container>
 
       <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Rituales Sensorial Facial</strong>
+               <strong className="purple">Ritual Sensorial Facial</strong>
             </h1>
 
             <p className="about-para">
@@ -17,13 +17,14 @@ y exceso de sebo acumulado en la piel. Promueve la renovación celular
 dejando el rostro fresco, limpio y revitalizado.
 Presoterapia: sistema de presión controlada para estimular el sistema linfático,
 mejorar la circulación sanguínea y reducir la retención de líquidos. 
-Duración: 60 minutos
-$23000
+
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 23000$</p>
+<br></br><br></br><br></br>
               </p>
 
 
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Rituales Sensorial Relax</strong>
+               <strong className="purple">Ritual Sensorial Relax</strong>
             </h1>
 
             <p className="about-para">
@@ -41,12 +42,14 @@ piel mientras aplica simultáneamente frío para contrarrestar la inflamación y
 optimizar los resultados.
 Presoterapia: sistema de presión controlada para estimular el sistema linfático,
 mejorar la circulación sanguínea y reducir la retención de líquidos. 
-Duración: 60 minutos 
-$25000
+
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 25000$</p>
+<br></br><br></br><br></br>
+
               </p>
 
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Rituales Sensorial de Luxe</strong>
+               <strong className="purple">Ritual Sensorial de Luxe</strong>
             </h1>
 
             <p className="about-para">
@@ -59,12 +62,14 @@ Ozonoterapia: dispositivo diseñado para realizar tratamientos con ozono en un
 entorno controlado, aplicando sus beneficios estéticos y terapéuticos. Este
 tratamiento permite que el ozono sea absorbido por la piel, aprovechando sus
 efectos antioxidantes, antiinflamatorios y regeneradores.
-Duración: 70/80 minutos
-$28000
+
+<p className="hono"><span className="honorario">Duracion:</span> 70/80 minutos 28000$</p>
+
               </p>
+              <br></br><br></br><br></br>
 
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Rituales Sensorial Piedras Calientes</strong>
+               <strong className="purple">Ritual Sensorial Piedras Calientes</strong>
             </h1>
 
             <p className="about-para">
@@ -72,12 +77,14 @@ $28000
 volcánicas lisas y calentadas para aplicar calor sobre el cuerpo con beneficios
 relajantes y terapéuticos Esta experiencia sensorial promueve la relajación
 profunda, aliviando tensiones musculares y mejorando la circulación.
-Duración: 60 minutos
-$26000
+
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 22600$</p>
+
               </p>
+              <br></br><br></br><br></br>
 
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Rituales Sensorial Corporal revitalizante</strong>
+               <strong className="purple">Ritual Sensorial Corporal Revitalizante</strong>
             </h1>
 
             <p className="about-para">
@@ -87,8 +94,10 @@ absorción de productos hidratantes y nutritivos.
 Ozonoterapia: cabinas  diseñadas para aplicar ozono de manera controlada
 sobre la superficie corporal, aprovechando sus propiedades regenerativas,
 antiinflamatorias, desintoxicantes y rejuvenecedoras.
-Duración 70/80 minutos 
-$28.000
+
+
+<p className="hono"><span className="honorario">Duracion:</span> 70/80 minutos 28000$</p>
+
               </p>
         
       </Container>

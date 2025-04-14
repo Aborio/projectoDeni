@@ -185,7 +185,7 @@ function NavBar() {
     <span className="scroll-text">Rehabilitación Vestibular</span>
   </Dropdown.Item>
   <Dropdown.Item as={Link} to="/terapiademovimiento">
-    <span className="scroll-text">Terapia de Movimiento</span>
+    <span className="scroll-text">Terapia Postural Activa (TPA)</span>
   </Dropdown.Item>
   <Dropdown.Item as={Link} to="/ritualesensoriales">
     <span className="scroll-text">Rituales Sensoriales</span>

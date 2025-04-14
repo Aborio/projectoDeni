@@ -7,8 +7,8 @@ function TratamPielCorpo() {
         <Container>
          
 
-          <p className="about-para">
-          <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+
+          <h1 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">Exfoliación e Hidratación Corporal</strong>
             </h1> 
             <p className="about-para">
@@ -18,15 +18,19 @@ function TratamPielCorpo() {
 Exfoliación: es un tratamiento terapéutico que elimina las células muertas de la
 superficie de la piel, mejorando su textura, luminosidad y capacidad de
 absorción de productos hidratantes y nutritivos
+<br></br>
 Hidratación: prevenir problemas de sequedad, descamación ayudando a
 mantener la barrera cutánea saludable.
-<p className="hono"><span className="honorario">Precio:</span> $18000 </p>
+
 </p>
-<p className="hono"><span className="honorario">Duracion:</span> 40 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 40 minutos 18000$</p>
 
 <br></br>
+<br></br>
+<br></br>
+<br></br>
 
-<h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+<h1 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">Criofrecuencia Corporal una zona</strong>
             </h1>
             <p className="about-para">
@@ -47,16 +51,15 @@ Zonas más comunes para aplicar criofrecuencia corporal:
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span> entre 6 y 10 sesiones, dependiendo del objetivo y la
 zona tratada, con una frecuencia de una sesión cada 15 días.
-<p className="hono"><span className="honorario">Precio:</span> $22000 </p>
 
-<p className="hono"><span className="honorario">Duracion:</span> 45 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 45 minutos 22000$</p>
 </p>
 
 
 
 <br></br>
-<br></br>
-<h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+<br></br><br></br><br></br><br></br>
+<h1 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">Presoterapia</strong>
             </h1>
             <p className="about-para">
@@ -66,15 +69,14 @@ circulación sanguínea y reducir la retención de líquidos. 
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span> una o dos sesiones semanales por cuatro a seis
 semanas.
-<p className="hono"><span className="honorario">Precio:</span> $18000 </p>
 
-<p className="hono"><span className="honorario">Duracion:</span> 45 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 45 minutos 18000$</p>
 </p>
 
 <br></br>
-<br></br>
+<br></br><br></br><br></br><br></br>
 
-<h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+<h1 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">Ozonoterapia</strong>
             </h1>
             <p className="about-para">
@@ -83,9 +85,8 @@ superficie corporal, aprovechando sus propiedades regenerativas,
 antiinflamatorias, desintoxicantes y rejuvenecedoras.
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span>  una sesión semanal de cuatro a seis semanas.
-<p className="hono"><span className="honorario">Precio:</span> $22000 </p>
 
-<p className="hono"><span className="honorario">Duracion:</span> 45 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 45 minutos 22000$</p>
 
 </p>
 
@@ -93,24 +94,23 @@ antiinflamatorias, desintoxicantes y rejuvenecedoras.
 
 <br></br>
 
-<br></br>
-<h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+<br></br><br></br><br></br>
+<h1 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">Ozonoterapia + Masaje reductor</strong>
             </h1>
-Ver Ozonoterapia
+(Ver información Ozonoterapia)
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span> una sesión semanal de cuatro a seis semanas.
-<p className="hono"><span className="honorario">Precio:</span> $25000 </p>
 
-<p className="hono"><span className="honorario">Duracion:</span> 60 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 25000$</p>
 
-
-<br></br>
 
 <br></br>
 
 <br></br>
-<h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+
+<br></br><br></br><br></br>
+<h1 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">Sauna Abierto</strong>
             </h1>
 
@@ -121,30 +121,26 @@ absoluta. <span className="honorario">Brinda: </span> Relajación muscular - Des
 circulación - Reducción del estrés El sauna abierto
 Frecuencia recomendada: una sesión quincenal.
 
-<p className="hono"><span className="honorario">Precio:</span> $7000 </p>
-
-<p className="hono"><span className="honorario">Duracion:</span> 15 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 15 minutos 7000$</p>
 </p>
 
 <br></br>
-<br></br>
+<br></br><br></br><br></br>
 
-<h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+<h1 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">Sauna Abierto + Ozonoterapia</strong>
             </h1>
-            Ver Sauna Abierto
+            (Ver información Sauna Abierto)
             <br></br>
-Ver Ozonoterapia
+(Ver información Ozonoterapia)
 <br></br>
 <span className="frecuencia">Frecuencia recomendada:</span> Dependiendo de los objetivos planteados.
 
 
-<p className="hono"><span className="honorario">Precio:</span> $22000 </p>
-
-<p className="hono"><span className="honorario">Duracion:</span> 60 minutos</p>
+<p className="hono"><span className="honorario">Duracion:</span> 60 minutos 22000$</p>
 
 
-            </p>
+
         </Container>
         </Container>
     )

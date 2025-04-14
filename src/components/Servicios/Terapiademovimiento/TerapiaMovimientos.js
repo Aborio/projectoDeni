@@ -8,7 +8,7 @@ function TerapiaMovimientos() {
       <Container>
 
       <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-               <strong className="purple">Terapia de Movimiento</strong>
+               <strong className="purple">Terapia Postural Activa (TPA)</strong>
             </h1>
 
             <p className="about-para">
@@ -16,7 +16,6 @@ function TerapiaMovimientos() {
             Método postural global e integral. Utiliza elementos de suspensión como
 columpios, kuruntas braquiales e inguinales, que en su conjunto permite
 construir, corregir y autogestionar una postura ideal saludable.
-Terapia Postural personalizada con Lic. K y F. Betiana Scalenghe
 </p>
 <p className="abour-para">
 
@@ -28,10 +27,15 @@ Terapia Postural personalizada con Lic. K y F. Betiana Scalenghe
             <span className="preguntas">1-¿Quiénes son candidatos a TPA personalizado?</span>
             <br></br>
 Aquellas personas que tienen una:
-Patología de base;
+<br></br>
+Patología de columna de base;
+<br></br>
 Sedentarios;
+<br></br>
 Derivaciones específicas de profesionales de la salud;
+<br></br>
 Sobrepeso;
+<br></br>
 Cinesiofobia (temor excesivo a realizar movimientos físicos por miedo al dolor)
 <br></br>
 <span className="preguntas">2- ¿Desde qué edad se recomienda comenzar y hasta que edad se puede
@@ -76,17 +80,15 @@ Sesión de 60 minutos Kinesióloga-paciente (uno a uno)
 <p className="hono"><span className="honorario">Abono mensual:</span>
 <br></br>
 
-- 4/5 encuentros mensuales $27000
+- 4/5 encuentros mensuales $28000
 <br></br>
-- 8/9 encuentros mensuales $42000
+- 8/9 encuentros mensuales $43000
 <br></br>
-- Pago por sesión grupal $10000
+- Pago por sesión grupal $11000
 <br></br>
-- Personalizado con la Lic. Betiana Scalenghe $26000
+- Personalizado con la Lic. Betiana Scalenghe $27000
 <br></br>
 - Personalizado con staff general: $21000
-<br></br>
-- Honorarios Profesionales: $26000
 </p>
 </p>
 

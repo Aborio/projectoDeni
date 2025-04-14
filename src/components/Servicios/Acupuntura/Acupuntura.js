@@ -8,7 +8,7 @@ function Acupuntura() {
         <Container fluid className="about-section">
             <Container>
             
-            <h2 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h2 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">Terapia Manual Kinesica</strong>
             </h2>
             <p className="about-para">
@@ -16,7 +16,7 @@ function Acupuntura() {
             musculo esquelético, visceral, y fascial, reconociendo que las emociones, las
                 estructuras y órganos internos están profundamente interrelacionados.
                 <br></br>
-                Modalidad de desarrollo: movilidad articular, estiramientos pasivos, activos y
+                Modalidad de desarrollo: movilidad articular, ejercicios pasivos, activos y
                 asistidos, liberación miofascial con enfoque somato emocional, técnicas de
 
                 energía muscular, relación psicoemocional y postura e integración de
@@ -29,7 +29,7 @@ function Acupuntura() {
             <br></br>
             <br></br>
             <br></br>
-            <h2 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h2 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">
                 Acupuntura
                </strong>
@@ -47,7 +47,8 @@ punto de vista integral, considerando aspectos musculares, articulares,
 nerviosos y energéticos.
 <br></br>
 </p>
-<h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+<br></br>            <br></br>            <br></br>            <br></br>            <br></br>
+<h1 style={{ fontSize: "2.9em", paddingBottom: "20px" }}>
                <strong className="purple">
                 Preguntas frecuentes:
                </strong>
@@ -64,7 +65,7 @@ Cada 15/ 20 días.
 <span className="preguntas">3-¿Debo tener algún diagnóstico o dolor para poder realizar la sesión?</span>
 <br></br>
 No es necesario tener una patología de base o un diagnóstico para realizar
-una sesión de acupuntura se puede realizar a modo preventivo.
+una sesión de acupuntura se puede realizar de modo preventivo.
 <br></br>
 <span className="preguntas">4-¿Quiero sacar un turno que debo hacer?</span>
 <br></br>
@@ -88,6 +89,23 @@ Hombres: Short
 A partir de los 18 años.
 <br></br>
 <span className="preguntas">8- ¿Qué contraindicaciones y o precauciones tiene la Acupuntura?</span>
+<br></br>
+<span className="contradiccion">Contraindicaciones absolutas: </span>
+<br></br>
+- Fobia a las agujas, 
+<br></br>
+- Infecciones locales o sistémicas, 
+<br></br>
+- Trastornos graves de coagulación,
+<br></br> 
+- Embarazo,
+<br></br> 
+- Epilepsia,
+<br></br> 
+- Pieles sensibles,
+<br></br> 
+- Alteraciones psicológicas severas.
+<br></br>
 <span className="preguntas">9-¿Esta prestación se encuentra nomenclada en las Obras Sociales?</span>
 <br></br>
 NO.
@@ -95,17 +113,9 @@ NO.
 <br></br>
 <br></br>
 <br></br>
-<span className="contradiccion">Contraindicaciones absolutas: </span>
-Fobia a las agujas, 
-Infecciones locales o sistémicas, 
-Trastornos graves de coagulación, 
-Embarazo, 
-Epilepsia, 
-Pieles sensibles, 
-Alteraciones psicológicas severas.
+
 <br></br>
-<p className="hono"><span className="honorario">Honorarios Profesionales por sesión:</span> $ 28000 la primera sesión, $25000
-a partir de la segunda</p>
+<p className="hono"><span className="honorario">Precios Profesionales por sesión:</span> $ 28000</p>
                 </p>
 
 

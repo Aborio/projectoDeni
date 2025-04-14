@@ -8,7 +8,7 @@ function RehabVestibular() {
 
         <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                <strong className="purple">
-               Rehabilitacion vestibular
+               Rehabilitacion Vestibular
                </strong>
             </h1>
           
@@ -22,6 +22,7 @@ discapacidad, con limitación en las actividades diarias y restricción de la
 participación social.
 En algunas oportunidades deberá realizar derivación al especialista
 correspondiente.
+<br></br>
 Modalidad terapéutica efectiva para este tipo de pacientes:
 *una hora de ayuno antes del turno.
 *en caso de tener traer estudios previos (audiometrías, potenciales
@@ -77,7 +78,7 @@ Depende de la evolución del paciente.
 <br></br>
 Dependiendo del cuadro de presentación del paciente.
 <br></br>
-<p className="hono"><span className="honorario">Honorarios Profesionales por sesión:</span> $ 20000 </p>
+<p className="hono"><span className="honorario">Precios Profesionales por sesión:</span> $ 20000 </p>
         
             </p>
         </Container>

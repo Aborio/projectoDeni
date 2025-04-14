@@ -1,51 +1,84 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import "./Home2.css";
 
 function Home2() {
   const people = [
     {
-      name: "Fabricio Santi",
+      name: "Fabricio",
       age: 29,
-      comment: "TPA PARA MI ES SALUD, BIENESTAR, APRENDIZAJE Y CONCIENCIA POSTURAL",
+      comment: "TPA PARA MI ES SALUD, BIENESTAR, APRENDIZAJE Y CONSIENCIA POSTURAL",
     },
     {
-
-      name: "Luciana Androetto",
-      age: 30,
-      comment: "ES UN MOMENTO EN EL QUE ME CONECTO CON TODO MI SET FISICO Y EMOCIONAL. ME PROVOCA MUCHISIMO PLACER COLGARME, ELONGAR, MANTENERME ACTIVA PERO SERENA Y CONSCIENTE, ESTOY LOGRANDO MUCHOS BENEFICIOS FISICOS",
+      name: "Rita",
+      age: 85,
+      comment: "BUENA PREDISOPSICIÓN, ACOMPAÑAMIENTO Y BEIENESTAR GENERAL ",
     },
     {
-
-      name: "Marcel Alberti",
-      age: 59,
-      comment: "RELAJACION, CONCENTRACION, BIENESTAR PARA MI SALUD",
+      name: "Nuria",
+      age: 50,
+      comment: "BIENESTAR PARA MI SALUD Y DESENCHUFE MENTAL",
     },
     {
-
-      name: "Marta Borsarelli",
-      age: 71,
-      comment: "falto el comentario tia",
+      name: "Nora",
+      age: 66,
+      comment: "DESAFÍO PERMAMENTE Y SUPERACIÓN PERSONAL. EXCELENTES PROFESIONALES",
+    },
+    {
+      name: "Adriana",
+      age: 51,
+      comment: "CAMBIO DE VIDA. MEJOR CALIDAD DE VIDA",
+    },
+    {
+      name: "Sonia",
+      age: 60,
+      comment: "DISFRUTE, BIENESTAR, FUERZA Y ELONGACIÓN",
     },
   ];
 
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      partialVisibilityGutter: 0,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 768 },
+      items: 2,
+      partialVisibilityGutter: 0,
+    },
+    mobile: {
+      breakpoint: { max: 768, min: 0 },
+      items: 1,
+      partialVisibilityGutter: 0,
+    },
+  };
+
   return (
-   <>
+    <>
       <div className="comments-header">
         <h2>Comentarios</h2>
-        <p>Conoce lo que opinan nuestros participantes:</p>
+        <p>Testimonios de nuestros alumnos:</p>
       </div>
-      <Row className="comments-container">
-  {people.map((person, index) => (
-    <div key={index} className="comment-card">
-      <div className="card-content">
-        <h4 className="name">{person.name}</h4>
-        <p className="age">{person.age} años</p>
-        <p className="comment">"{person.comment}"</p>
-      </div>
-    </div>
-  ))}
-</Row>
+      <Carousel className="carousel"
+        responsive={responsive}
+        infinite
+        autoPlay
+        autoPlaySpeed={10000000}
+        keyBoardControl
+        showDots
+        containerClass="carousel-container"
+        itemClass="carousel-item-padding-40-px"
+      >
+        {people.map((person, index) => (
+          <div key={index} className="comment-card text-center p-2">
+            <h4 className="name">{person.name}</h4>
+            <p className="age">{person.age} años</p>
+            <p className="comment">"{person.comment}"</p>
+          </div>
+        ))}
+      </Carousel>
     </>
   );
 }
